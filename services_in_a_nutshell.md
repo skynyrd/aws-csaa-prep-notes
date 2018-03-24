@@ -82,3 +82,76 @@
 * __Rekognition__: Recognizes items and objects in the video
 * __Amazon Translate__: Machine translation service (like Google Translate)
 * __Amazon Transcribe__: Automatic speech recognation, speech to text. (cool usage ex: upload a video, use transcribe to get text, use translate to change its language, turn it to mp3 with polly and send it to amazon echo.)
+
+## Analytics
+
+* __Athena__: SQL queries against things in S3 buckets.
+* __EMR (Elastic Map Reduce)__: For processing large amounts of data.
+* __CloudSearch & ElasticSearch__: Search services
+* __Kinesis__: Ingesting large amounts of data into AWS, e.g. social media feeds, hashtags
+* __Kinesis Video Streams__: For video
+* __QuickSight__: Business Intelligence Tool
+* __Data Pipeline__: Move data between AWS services
+* __Glue__: For ETL
+
+## Security & Identity & Compliance
+
+* __IAM__: Identity Access Management.
+* __Cognito__: Way of device authentication, e.g. mobile apps.
+* __GuardDuty__: Monitors malicious activities on your AWS account.
+* __Inspector__: Agent. e.g. For testing your VMs, can be scheduled.
+* __Macie__: Scans your S3 buckets for personal identifiable information, e.g. passport no, addresses, phone numbers.
+* __Certificate Manager__: Manages SSL ceritificates. (SSL certificate is free for AWS users registered their domains to Route53)
+* __CloudHSM (Hardware Security Module)__: Generate and use your own encryption keys on the AWS Cloud.
+* __Directory Services__: Integrate Microsoft Active Directory.
+* __WAF (Web Application Firewall)__: Firewall
+* __Shield__: To prevent DDOS attacks.
+* __Artifact__: Provides on-demand downloads of AWS security and compliance documents e.g.  ISO certifications, Payment Card Industry (PCI), and Service Organization Control (SOC) reports
+
+## Mobile Services
+
+* __Mobile Hub__: Management console for mobile services, generates config file etc.
+* __Pinpoint__: For push notifications
+* __AWS AppSync__: Auto updates web and mobile apps
+* __Device Farm__: For testing apps
+* __Mobile Analytics__: Can understand from its name.
+
+## AR / VR (Augmented Reality / Virtual Reality)
+
+* __Sumerian__: To create VR, AR, and 3D experiences
+
+## Application Integration
+
+* __Step Functions__: Managing lambda functions and step functions
+* __Amazon MQ__: Message Queue
+* __SNS__: Notification Service (Email, SMS etc.)
+* __SQS__: Decoupling the infrastructure
+* __SWF__: Simple Work Flow
+
+## Customer Engagement
+
+* __Connect__: Contact center as a service (call center)
+* __Simple Email Service__: Can understand from its name.
+
+## Business Productivity
+
+* __Alexa For Business__: Use it to dial into a meeting room, to inform IT when printer is broken etc...
+* __Chime__: Like Google hangouts or Zoom. Online meeting.
+* __Work Docs__: Kinda Dropbox
+* __WorkMail__: Kinda Office 365
+
+## Desktop && App Streaming
+
+* __Workspaces__: Desktop envs being running in the cloud streamed to your device
+* __AppStream 2.0__: Apps runnning in the cloud streamed to your device
+
+## Internet of Things
+
+* __iOT__: Ubiquitous devices connecting the physical world to the cloud 
+* __iOT Device Management__: Service that makes it easy to securely onboard, organize, monitor, and remotely manage IoT devices at scale
+* __Amazon FreeRTOS__: Operating System for your microcontrollers
+* __Greengrass__: Software that lets you run local compute, messaging & data caching for connected devices in a secure way
+
+## Game Development
+
+* __GameLift__: Dedicated game server hosting

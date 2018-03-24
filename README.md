@@ -1,0 +1,1 @@
+My notes for Amazon Solutions Architect Associate Certification.
