@@ -32,3 +32,15 @@ User Permissions can be from the group of the user or direct.
 * IAM user in another account
 * An AWS service that needs to act on resources in your account to provide its features
 * Users from a corporate directory who use identity federation with SAML
+
+### To Conclude
+
+* IAM => Global region
+* Root acount (got Administrator Access) is simply the account created when first setup your AWS account. Has complete Admin access.
+* New users have NO permissions when first created.
+* New users are assigned Access Key ID & Secret Access Keys when first created. And these are for programmatic access.
+* These keys only get to view once. If you lose them, you have to regenerate them. So it must be saved in a secure location when first created.
+* Multifactor Auth should be set up.
+* Password rotation policy should be set.
+* Power user access allows access to all AWS services except for management of groups and users within IAM
+
