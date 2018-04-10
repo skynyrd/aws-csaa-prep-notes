@@ -29,3 +29,21 @@ __Lifecycle Management__
 * Incomplete multipart uploads can be cleaned after configured time.
 * Transition to S3 - IA (must be > 128Kb and min 30 days after creation date)
 * Archive to the Glacier (min 30 days after IA, if relevant.)
+
+__Security__
+
+* All the newly created buckets => PRIVATE
+* Setup access control to the buckets by:
+    * Bucket policies
+    * Access Control Lists (can be applied to individual object)
+* Can be configured to create access logs, that can be done to another bucket.
+
+__Encryption__
+
+* In Transit => SSL / TLS
+* At Rest
+    * Server Side Encryption
+        * S3 Managed Keys - SSE S3
+        * AWS Key Management Service, Managed Keys - SSE-KMS (additional cost)
+        * Server Side Encryption With Customer Provided Keys - SSE-C
+    * Client Side Encryption (You encrypt it, then upload it to S3)
