@@ -43,4 +43,13 @@ __Volume Gateway - Stored Volumes__
 
 __Volume Gateway - Cached Volumes__
 
+* S3 - Primary data storage
+* Frequently accessed data - on prem. (local)
+* Storage volumes -> up to 32 TB
+
+__Tape Gateway__
+
+* durable, cost effective solution to archive data in AWS.
+* Supported by NetBackup, Backup Exec, Veeam etc.
+* Virtual Tape to AWS
 
