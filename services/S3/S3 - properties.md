@@ -47,3 +47,21 @@ __Encryption__
         * AWS Key Management Service, Managed Keys - SSE-KMS (additional cost)
         * Server Side Encryption With Customer Provided Keys - SSE-C
     * Client Side Encryption (You encrypt it, then upload it to S3)
+
+__Transfer Acceleration__
+
+* Local <=> Edge Location <=> S3
+* Can be enabled from bucket properties
+* `bucketname.S3-accelerate.amazonaws.com` address is binded after enable.
+* Faster by enabling multipart upload (seperate big files into the pieces, then upload them in parallel)
+
+__Creating a static website__
+
+* Create a bucket
+* Bucket name should be same as the domain name as `Route53` and `S3` can work together.
+* After creation, from properties, `Enable static website` 
+* Set index document e.g. `index.html`
+* Set error document e.g. `error.html`
+* Redirection rules are optional.
+* Then just upload the bundle to the bucket.
+* __IMPORTANT:__ Endpoint is `http://bucketname.s3-website-region.amazonaws.com`
