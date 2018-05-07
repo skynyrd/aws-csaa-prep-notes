@@ -35,3 +35,32 @@ allowing to quicklyscale capasity, both up and down, as computing reqs change.
 * Apps that have flexible start and end times
 * Apps that are only feasible at very low compute prices
 * Users with urgent computing needs for large amount of additional capacity.
+
+### EC2 Instance Types
+
+**Important:**
+
+```
+F for FPGA (field programmable gate array)
+I for IOPS (input output operations per second)
+G for Graphics
+H for High disk thruput
+T for cheap general purpose (think T2 micro)
+P for Graphics (think pics)
+C for Compute
+D for Density
+R for Ram
+M for Main choice general purpose apps.
+X for Extreme Memory
+```
+
+e.g.
+
+* F1 - Field programmable gate array (Genomics research, financial analytics...)
+* I3 - High Speed Storage (NoSQL DBs, Data Warehousing etc.)
+* G3 - Graphics Intensive (Video Encoding / 3D App Streaming etc.)
+* T2 - Lowest Cost, General Purpose (Web Servers / Small DBs)
+* R4 - Memory Optimized (Memory Intensive Apps)
+
+and so on...
+
