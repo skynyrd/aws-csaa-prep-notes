@@ -7,6 +7,7 @@
     * Run a db
     * Use them any other way you would use a block device.
 * EBS volumes are placed in a specific Availability Zone, where they are automatically replicated to protect you from the failure of a single component.
+* EC2 instances and their EBS volumes must be in the same availability zone.
 
 ### Types
 

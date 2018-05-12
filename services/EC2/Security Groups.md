@@ -8,3 +8,6 @@
     * If you set an `inbound` rule, `outbound` rule is also set automatically.
 * You can't block specific IP addresses using sec groups, instead use Network Access Control Lists. (see VPC section for further details)
 * You can specify allow rules, but not deny rules.
+* Give RDP access for Windows instances
+* Default Windows Instance username: `Administrator`
+* Default pass: You should get Windows password from EC2 dashboard (From `Actions` dropdown)

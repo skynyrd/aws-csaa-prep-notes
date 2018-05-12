@@ -43,4 +43,4 @@ User Permissions can be from the group of the user or direct.
 * Multifactor Auth should be set up.
 * Password rotation policy should be set.
 * Power user access allows access to all AWS services except for management of groups and users within IAM
-
+* IAM role can be changed while EC2 instance is running from EC2 management panel => `Actions`
