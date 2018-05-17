@@ -1,3 +1,7 @@
+* You need to specify a port number or protocol when you add a rule to an RDS security group.
+* If you use RDS provisioned IOPS storage with MySQL or Oracle engines, max volume can have 6TB.
+* By default, the maximum provisioned IOPS capacity on an Oracle and MySQL RDS instance (using provisioned IOPS) is 30,000 IOPS.
+
 #### Relational DB
 
 * Since 70s
@@ -52,3 +56,4 @@
 * You can create read replicas of Multi AZ source dbs.
 * Can be promoted to be their own databases. This breaks the replication.
 * You can have a read replica in a second region.
+* Replicating data from primary RDS instance to secondary RDS instance is free.

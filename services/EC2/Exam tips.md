@@ -61,3 +61,9 @@ zone?
 
 * Will not lose your data after reboot
 * By default, both ROOT volumes will be deleted on termination, however with EBS volumes, you can tell AWS to keep the root device volume.
+
+`Getting meta data/user data of an instance`
+
+* ssh to the instance
+* `curl http://169.254.169.254/latest/meta-data`
+* `curl http://169.254.169.254/latest/user-data`

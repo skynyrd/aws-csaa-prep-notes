@@ -25,3 +25,11 @@ To Connect to your EC2 instance:
 * CPU, Disk etc.
 * Status Check Counts
 * Network
+
+### Roles
+
+* If an instance doesn't have a role, you should save credentials in it and its not recommended.
+* Create a role and bind it to an instance.
+* Use it!
+
+You can bootstrap a bash script when the application is run, when creating.
